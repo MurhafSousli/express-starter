@@ -1,0 +1,28 @@
+{
+  "name": "express-es6-starter",
+  "version": "1.0.0",
+  "description": "Express tutorial",
+  "scripts": {
+    "start": "nodemon --exec babel-node --inspect src/app.js",
+    "build": "npm run clean && babel src -d dist",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "express",
+    "starter",
+    "babel"
+  ],
+  "author": "Murhaf Sousli",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "nodemon": "^1.18.11"
+  }
+}
